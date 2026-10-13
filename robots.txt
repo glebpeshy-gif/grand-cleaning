@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://glebpeshy-gif.github.io/grand-cleaning/sitemap.xml
