@@ -82,7 +82,7 @@ p { margin: 0; }
 .logo__mark { width: 32px; height: 32px; color: var(--accent); flex: none; }
 .logo--light { color: #fff; }
 .nav { display: flex; gap: 28px; font-size: 15px; font-weight: 600; }
-.nav a { color: var(--text); transition: color .2s; }
+.nav a { color: var(--text); transition: color .2s; white-space: nowrap; }
 .nav a:hover { color: var(--accent); }
 .header__actions { display: flex; align-items: center; gap: 18px; }
 .header__phone { font-weight: 700; color: var(--ink); white-space: nowrap; }
@@ -252,7 +252,7 @@ details p { padding-bottom: 20px; color: var(--text); }
   .features { grid-template-columns: repeat(2, 1fr); }
   .steps { grid-template-columns: repeat(3, 1fr); }
 }
-@media (max-width: 920px) {
+@media (max-width: 1024px) {
   .nav {
     position: fixed; inset: 72px 0 auto 0; background: #fff; flex-direction: column; gap: 0;
     padding: 8px 20px 20px; border-bottom: 1px solid var(--line); transform: translateY(-120%); transition: transform .3s; z-index: -1;
